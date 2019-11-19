@@ -1,0 +1,82 @@
+/* 主要 Logo */
+.app-header {
+  --app-logo: url("");
+}
+
+:root {
+  /* 主要背景 */
+  --html-bkg-color: #0a0c16;
+  --main-bkg-color: #101010;
+  --sub-bkg-color: #262626;
+  --weak-bkg-color: #181818;
+  --tip-bkg-color: #7b7300;
+
+  /* 主要文字 */
+  --main-text-color: #aaa;
+  --sub-text-color: #666;
+  --weak-text-color: #505050;
+  --odds-text-color: #fcee09;
+  --odds-text-lock-color: #505050;
+  --strong-text-color: yellow;
+
+  /* 赛事卡 */
+  --match-card-bkg-color: #1c1c1c;
+  --match-card-bkg-hover-color: #333;
+
+  /* 盘口按钮 */
+  --odds-btn-bkg-default: rgba(39, 39, 39, 1);
+  --odds-btn-bkg-active: #383400;
+  --odds-btn-border-default: #7b7300;
+  --odds-btn-border-active: #fcee09;
+  --odds-btn-border-over: rgba(71, 71, 71, 0.5);
+}
+
+/* 遊戲筛选 */
+.game-filter {
+  --active-bkg: #262626;
+  --active-bar: #fcee09;
+}
+
+/* 标签 tab */
+.v-tabs__wrapper {
+  --tab-item-active-color: #fff;
+  --tab-bar-active-color: #fcee09;
+}
+
+/* 首页公告 */
+.announcement-carousel {
+  --carousel-bkg-color: #262626;
+  --carousel-text-color: #fcee09;
+}
+
+/* 投注记录弹窗 */
+.bet-history {
+  --date-bkg-color: #141517;
+  --tab-border-color: #1c2236;
+}
+
+.close-icon {
+  --close-icon-color: #506180;
+  --close-icon-hover-color: #fcee09;
+}
+
+.live-icon {
+  --live-icon-color: #fb0541;
+}
+
+/* 投注按钮 (可下注) */
+.base-button .base-button-contain:not(.disabled) {
+  box-shadow: none;
+  border-image-source: linear-gradient(100deg, #7b7300, #ffff00);
+  background-color: #fcee09;
+  color: #000;
+}
+
+/* 投注按钮 (赔率有变化) */
+.base-button .has-new-odds:not(.disabled) {
+  box-shadow: 0 0 4px 0 rgba(14, 20, 34, 0.5),
+    inset 0 1px 0 0 rgba(255, 106, 106, 0.6);
+  border-image-source: linear-gradient(100deg, #ff6e6e, #ff1418);
+  background-color: #dc0000;
+  color: #fff;
+}
