@@ -1,0 +1,70 @@
+/* 首页 Logo */
+.app-header {
+  /* --app-logo: url(""); */
+  --back-icon: hidden;
+}
+
+:root {
+  /* APP 顶部、投注单底部 */
+  --app-header-bkg: #000;
+  --app-icon-color: #ebc612;
+
+  /* 背景颜色 */
+  --main-bkg-color: #101010;
+  --sub-bkg-color: #262626;
+  --weak-bkg-color: #181818;
+  --focus-bkg-color: #141517;
+
+  --main-border-color: #505050;
+
+  /* 文字颜色 */
+  --main-text-color: #aaa;
+  --sub-text-color: #666;
+  --weak-text-color: #505050;
+  --odds-text-color: #ebc612;
+  --tip-text-color: #c5a813;
+
+  /* tab 颜色 */
+  --tab-bar-active-color: #ff2;
+  --tab-bar-border-color: #2d2d2d;
+
+  /* 首页 公告、日期 (文字、icon) */
+  --home-carousel-text: #ebc612;
+  --home-carousel-border: #2d2d2d;
+
+  /* 按钮样式 */
+  --odds-btn-bkg-default: #272727;
+  --odds-btn-bkg-active: #383400;
+  --odds-btn-border-default: #7b7300;
+  --odds-btn-border-active: #fcee09;
+  --odds-btn-border-over: rgba(71, 71, 71, 0.5);
+
+  /* 赛事卡 */
+  --match-card-bkg: #1c1c1c;
+  --match-card-border: #333;
+
+  /* 投注单 header、输入框 focus */
+  --bet-slip-header-bkg: #7f6d15;
+  --bet-slip-header-text: #fff;
+
+  /* 投注单键盘 */
+  --bet-slip-keyboard-bkg: #34363a;
+  --bet-slip-keyboard-bkg-active: #383400;
+}
+
+/* 投注按钮 (可下注) */
+.bet-slip-tab .tab-content .bet-btn {
+  box-shadow: 0 0 20px 0 rgba(235, 198, 18, 0.1);
+  border-image-source: linear-gradient(106deg, #ffd400, #ebc612);
+  background-image: linear-gradient(106deg, #ffd400, #ebc612);
+  color: #000;
+}
+
+/* 投注按钮 (赔率有变化) */
+.bet-slip-tab .tab-content .odds-change-btn {
+  box-shadow: 0 0 4px 0 rgba(14, 20, 34, 0.5),
+    inset 0 1px 0 0 rgba(255, 106, 106, 0.6);
+  border-image-source: linear-gradient(100deg, #ff6e6e, #ff1418);
+  background: #dc0000;
+  color: #fff;
+}
