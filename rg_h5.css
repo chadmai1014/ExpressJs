@@ -1,6 +1,6 @@
 /* 首页 Logo */
 .app-header {
-  /* --app-logo: url(""); */
+  --app-logo: url(""); 
   --back-icon: hidden;
 }
 
